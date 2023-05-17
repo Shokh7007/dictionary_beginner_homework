@@ -11,7 +11,8 @@ def find_length_of_values(data: dict) -> int:
         a=a+len(data[i])
     return a
 print(find_length_of_values({
-    'a': 'abc',
-    'b': 'def', 
-    'c': 'ghi'
+    1 : "Khiva", 
+    2 : "Namangan", 
+    3 : "Samarkand", 
+    4 : "Tashkent"
   })) 
